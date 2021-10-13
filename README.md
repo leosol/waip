@@ -1,2 +1,1 @@
-# waip
-WaIP - WhatsApp Call IP
+# whatsapp-call-ip

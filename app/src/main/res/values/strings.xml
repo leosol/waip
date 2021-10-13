@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">WaIP - Forensic Bites</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_activity_author">WaIP - More info</string>
+    <string name="title_activity_instructions">WaIP - Instructions</string>
+    <string name="title_activity_instructions_wizard">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_wiz_next">Next</string>
+    <string name="title_wiz_back">Prev</string>
+    <string name="instruction_1">Step 1</string>
+    <string name="instruction_2">Step 2</string>
+    <string name="instruction_3">Step 3</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/instruction_step1">
+
+    <fragment
+        android:id="@+id/instruction_step1"
+        android:name="com.whatsapp_call_ip.ui.step1.Step1Fragment"
+        android:label="@string/instruction_1"
+        tools:layout="@layout/fragment_step1" />
+
+    <fragment
+        android:id="@+id/instruction_step2"
+        android:name="com.whatsapp_call_ip.ui.step2.Step2Fragment"
+        android:label="@string/instruction_2"
+        tools:layout="@layout/fragment_step2" />
+
+    <fragment
+        android:id="@+id/instruction_step3"
+        android:name="com.whatsapp_call_ip.ui.step3.Step3Fragment"
+        android:label="@string/instruction_3"
+        tools:layout="@layout/fragment_step3" />
+</navigation>
