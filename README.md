@@ -24,14 +24,24 @@ For the forensic examiner, this might be very usefull since sometimes each party
 ![Forensic Evidence](pics/whatsapp-log.JPG)
 
 # Download
-![waip-2021-10-13.apk](/dist/waip-2021-10-13.apk)
+[waip-2021-10-13.apk](/dist/waip-2021-10-13.apk)
 
 # Install
 - Phone must be rooted
 - Needs to allow adb install and not verify apps installed by usb
 - ``adb install waip.apk``
 
+# First Filter
+
+``tshark -r capture.pcap stun|grep 'Binding'``
+
+``grep -Eio 'Local:(.*), Remote:(.*), priority: 0x102' /data/data/com.whatsapp/files/Logs/whatsapp.log``
+
+# Second Filter
+
+``tshark -r /sdcard/capture.pcap -o gui.column.format:Source,%us,source port,%uS,Destination,%ud,dest port,%uD (ip.src==192.168.0.50&&ip.dst==10.61.102.80)||(ip.src==192.168.0.50&&ip.dst==200.173.225.24)``
+
 # Limitations
 
 It's not true that every uses STUN/TURN, so this depends on your network and the other party network. This means: do not expect to have the other party IP address every time.
-Actually, while taking the screenshots for this doc, I had to try 3 times.
+Actually, while taking the screenshots for this doc, I had to try a few times.
