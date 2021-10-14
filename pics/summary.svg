@@ -14,7 +14,10 @@
    height="2340"
    viewBox="0 0 3240 2340"
    sodipodi:docname="summary.svg"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   inkscape:export-filename="C:\Users\freakazoid\git\waip\pics\summary.png"
+   inkscape:export-xdpi="20.444445"
+   inkscape:export-ydpi="20.444445">
   <metadata
      id="metadata16">
     <rdf:RDF>
@@ -2318,7 +2321,9 @@ AABIPQEHAAAAkHoCDgAAACD1BBwAAABA6gk4AAAAgNQTcAAAAACpJ+AAAAAAUk/AAQAAAKSegAMA
 AABIPQEHAAAAkHoCDgAAACD1BBwAAABA6gk4AAAAgNQTcAAAAACpJ+AAAAAAUk/AAQAAAKSegAMA
 AABIPQEHAAAAkHoCDgAAACD1/n8U7LTwSFsduQAAAABJRU5ErkJggg==
 "
-       id="image20" />
+       id="image20"
+       inkscape:export-xdpi="20.148148"
+       inkscape:export-ydpi="20.148148" />
     <image
        width="1080"
        height="2340"
@@ -3669,7 +3674,9 @@ GFSziAAAAABJRU5ErkJggg==
 "
        id="image32"
        x="1080"
-       y="0" />
+       y="0"
+       inkscape:export-xdpi="20.148148"
+       inkscape:export-ydpi="20.148148" />
     <image
        width="1080"
        height="2340"
@@ -7477,18 +7484,24 @@ cAAAAACp939X6WtRoAzGfAAAAABJRU5ErkJggg==
 "
        id="image46"
        x="2160"
-       y="0" />
+       y="0"
+       inkscape:export-xdpi="20.148148"
+       inkscape:export-ydpi="20.148148" />
     <path
        id="XMLID_1457_"
        d="m 397.5293,1620.9374 118.24,137.9626 c 6.4,7.456 17.9413,7.456 24.3413,0 l 118.3147,-137.9626 c 11.744,-13.7174 -4.6827,-33.3654 -20.2454,-24.2667 l -64.896,37.856 40.2347,-357.9733 c 2.304,-20.448 -22.4853,-32.1814 -36.864,-17.472 l -48.6827,49.856 -48.736,-49.856 c -14.3146,-14.7094 -39.104,-2.9654 -36.8,17.408 l 40.224,358.0373 -64.896,-37.856 c -15.616,-9.0987 -31.9786,10.5493 -20.2346,24.2667 z"
        fill="#ed7161"
-       style="stroke-width:10.6667;fill:#ffff00" />
+       style="stroke-width:10.6667;fill:#ffff00"
+       inkscape:export-xdpi="20.148148"
+       inkscape:export-ydpi="20.148148" />
     <text
        xml:space="preserve"
        style="font-size:85.3333px;line-height:1.85;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;fill:#ffff00;fill-opacity:1;"
        x="159.65904"
        y="1216.4688"
-       id="text69"><tspan
+       id="text69"
+       inkscape:export-xdpi="20.148148"
+       inkscape:export-ydpi="20.148148"><tspan
          sodipodi:role="line"
          id="tspan67"
          x="159.65904"
@@ -7499,7 +7512,9 @@ cAAAAACp939X6WtRoAzGfAAAAABJRU5ErkJggg==
        style="font-size:85.3333px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;fill:#ffff00;fill-opacity:1;"
        x="1312.699"
        y="780.66315"
-       id="text69-3"><tspan
+       id="text69-3"
+       inkscape:export-xdpi="20.148148"
+       inkscape:export-ydpi="20.148148"><tspan
          sodipodi:role="line"
          id="tspan67-5"
          x="1312.699"
@@ -7510,7 +7525,9 @@ cAAAAACp939X6WtRoAzGfAAAAABJRU5ErkJggg==
        style="font-size:85.3333px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;fill:#ffff00;fill-opacity:1;"
        x="2248.7625"
        y="868.62115"
-       id="text69-3-1"><tspan
+       id="text69-3-1"
+       inkscape:export-xdpi="20.148148"
+       inkscape:export-ydpi="20.148148"><tspan
          sodipodi:role="line"
          id="tspan67-5-7"
          x="2248.7625"
@@ -7518,7 +7535,9 @@ cAAAAACp939X6WtRoAzGfAAAAABJRU5ErkJggg==
          style="font-size:85.3333px;fill:#ffff00;fill-opacity:1;">3. Parse the capture data</tspan></text>
     <g
        id="g159"
-       transform="matrix(1.331863,0,0,1.331863,2683.6825,1259.6825)">
+       transform="matrix(1.331863,0,0,1.331863,2683.6825,1259.6825)"
+       inkscape:export-xdpi="20.148148"
+       inkscape:export-ydpi="20.148148">
       <g
          id="Layer_2"
          data-name="Layer 2">
