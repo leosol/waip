@@ -6,7 +6,12 @@ With the help of [jpclaudino](https://github.com/jpclaudino), jkoya and opsmacie
 
 ## Main idea
 Its known that, besides the fact that every WhatsApp call is encrypted, sometimes packets carrying call data go through a kind of STUN/TURN protocol.
+
 This has been reported by [Marvin Schirrmacher](https://medium.com/@schirrmacher/analyzing-whatsapp-calls-176a9e776213).
+
+There's also something about it at [ntop project](https://github.com/ntop/nDPI/issues/530)
+
+And also [here](https://techbriefly.com/2021/07/14/this-security-flaw-in-whatsapp-could-leak-your-ip-address/) 
 
 As a consequence, sometimes, **it's possible to identify each party IP address**. 
 
