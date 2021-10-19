@@ -33,7 +33,7 @@ It's also possible to get info about party network, if it's Cellular or Wifi.
 
 
 # Download
-[waip-2021-10-18.apk](https://github.com/leosol/waip/raw/main/dist/waip-2021-10-18.apk)
+[waip.apk](https://github.com/leosol/waip/raw/main/dist/waip.apk)
 
 # Install
 - Phone must be rooted
