@@ -1,11 +1,11 @@
-# WaIP - get party IP addrs
+# WaIP - get party IP addrs with a WhatsApp Call
 (c) leosol 2021
 
 With the help of [jpclaudino](https://github.com/jpclaudino), jkoya and [otaviomaciel](https://github.com/otaviomaciel)
 
 
 ## Main idea
-Its known that, besides the fact that every WhatsApp call is encrypted, sometimes packets carrying call data go through a kind of STUN/TURN protocol.
+WhatsApp uses encrypted SIP/RTP protocols and uses STUN/TURN to make a P2P communication.
 
 This has been reported by [Marvin Schirrmacher](https://medium.com/@schirrmacher/analyzing-whatsapp-calls-176a9e776213).
 
