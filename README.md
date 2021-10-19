@@ -1,7 +1,7 @@
 # WaIP - get party IP addrs
 (c) leosol 2021
 
-With the help of [jpclaudino](https://github.com/jpclaudino), jkoya and opsmaciel
+With the help of [jpclaudino](https://github.com/jpclaudino), jkoya and [otaviomaciel](https://github.com/otaviomaciel)
 
 
 ## Main idea
