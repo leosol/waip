@@ -73,10 +73,12 @@ public class Application extends android.app.Application {
         this.truncate_log.waitFor();
     }
 
-    public void incrementWithLog() throws IOException, InterruptedException {
+    public void parseWhatsAppLog() throws IOException, InterruptedException {
         increment_log = Runtime.getRuntime().exec("su");
         increment_log_out = new DataOutputStream(increment_log.getOutputStream());
-        increment_log_out.writeBytes("grep -Eio 'Local:(.*), Remote:(.*), priority: 0x102' /data/data/com.whatsapp/files/Logs/whatsapp.log >> /sdcard/.capture1.view\n");
+        increment_log_out.writeBytes("grep -Eio 'Local:(.*), Remote:(.*), priority: 0x102' /data/data/com.whatsapp/files/Logs/whatsapp.log > /sdcard/.capture1.view\n");
+        increment_log_out.flush();
+        increment_log_out.writeBytes("grep -Eio 'Peer (.*) network medium type updated: (.*)' /data/data/com.whatsapp/files/Logs/whatsapp.log >> /sdcard/.capture1.view\n");
         increment_log_out.flush();
         increment_log_out.writeBytes("exit\n");
         increment_log_out.flush();
@@ -129,7 +131,7 @@ public class Application extends android.app.Application {
         tshark_out.flush();
         tshark_out.writeBytes("cut -d ' ' -f 3-5 < /sdcard/.tmp3.txt > /sdcard/.tmp4.txt\n");
         tshark_out.flush();
-        tshark_out.writeBytes("sort -u < /sdcard/.tmp4.txt > /sdcard/.capture1.view\n");
+        tshark_out.writeBytes("sort -u < /sdcard/.tmp4.txt >> /sdcard/.capture1.view\n");
         tshark_out.flush();
         tshark_out.writeBytes(CHMOD_BIN+" 666 /sdcard/.capture1.view\n");
         tshark_out.flush();

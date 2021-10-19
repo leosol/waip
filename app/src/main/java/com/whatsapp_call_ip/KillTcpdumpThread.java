@@ -15,8 +15,8 @@ public class KillTcpdumpThread extends Thread {
         this.app.setSavedLog(true);
         this.app.stopTcpdump();
         try {
+            this.app.parseWhatsAppLog();
             this.app.parsePcap();
-            this.app.incrementWithLog();
         }catch(Exception e){
             throw new RuntimeException(e);
         }
